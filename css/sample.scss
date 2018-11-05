@@ -425,7 +425,11 @@ h1 {
             border-bottom: 3px solid;
             @include fontsize(20);
             font-weight: bold;
-            padding-bottom: 15px;
+            padding-bottom: 20px;
+            
+            &.company_title{
+                margin-bottom: 0;
+            }
         }
 
         .news_li {
@@ -433,20 +437,24 @@ h1 {
 
             span {
                 color: $blue1;
-                display: block;
+                display: inline-block;
                 font-weight: bold;
                 margin-bottom: 3px;
+                padding-right: 10px;
             }
         }
 //news
-th{
-    padding-right: 20px;
-} 
-th, td {
+
+
+th,td {
     padding: 20px 0;
     color: #626262;
     @include fontsize(14);
 }
+th{
+    padding-right: 20px;
+   
+} 
     }
 
 

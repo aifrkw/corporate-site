@@ -278,21 +278,24 @@ h1 {
     font-size: 20px;
     font-size: 2rem;
     font-weight: bold;
-    padding-bottom: 15px; }
+    padding-bottom: 20px; }
+    #contents #main h2.company_title {
+      margin-bottom: 0; }
   #contents #main .news_li {
     list-style: none; }
     #contents #main .news_li span {
       color: #42b9d0;
-      display: block;
+      display: inline-block;
       font-weight: bold;
-      margin-bottom: 3px; }
-  #contents #main th {
-    padding-right: 20px; }
+      margin-bottom: 3px;
+      padding-right: 10px; }
   #contents #main th, #contents #main td {
     padding: 20px 0;
     color: #626262;
     font-size: 14px;
     font-size: 1.4rem; }
+  #contents #main th {
+    padding-right: 20px; }
   #contents #sidebar .pc_sidemenu h3 {
     color: #42b9d0;
     font-size: 14px;
